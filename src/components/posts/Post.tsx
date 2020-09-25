@@ -88,7 +88,6 @@ class Posts extends Component <PostProps, PostState> {
     render() {
         return (
             <div key={this.props.post.id} className="post">
-                555
                 <div className="post-header">
                     <div className="author">
                         <div className="author-pic-wrapper">
