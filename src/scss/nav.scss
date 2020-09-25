@@ -1,0 +1,40 @@
+@import 'variables';
+
+
+
+#mainNav {
+    border-bottom: $border-dark;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    .profile-dropdown {
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .profile-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .home,
+    .add-post-btn,
+    .mobile-logout-btn {
+        font-size: 23px;
+    }
+    .mobile-profile,
+    .mobile-logout-btn {
+        display: none;
+    }
+    .dropdown-item{
+        &.active{
+            background-color: black;
+        }
+        &:active {
+            background-color: black;
+        }
+    }
+}

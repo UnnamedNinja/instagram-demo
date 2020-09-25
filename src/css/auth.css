@@ -1,0 +1,87 @@
+.sign-in button[type="submit"],
+.sign-up button[type="submit"], .profile-page .save-profile-btn {
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 25px;
+  transition: .3s;
+}
+
+.sign-in button:hover[type="submit"],
+.sign-up button:hover[type="submit"], .profile-page .save-profile-btn:hover {
+  background-color: #838383;
+}
+
+.sign-in .social-btns {
+  font-size: 4em;
+}
+
+.sign-in .social-btns i {
+  cursor: pointer;
+}
+
+.sign-in .social-btns i:first-child {
+  margin-right: 10px;
+}
+
+.sign-in .social-btns i:hover {
+  color: #838383;
+}
+
+.sign-in form,
+.sign-up form {
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  padding: 20px;
+}
+
+.username-error {
+  display: none;
+}
+
+.profile-page {
+  position: relative;
+}
+
+.profile-page .profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.profile-page .profile-pic-wrapper {
+  width: 200px;
+  height: 200px;
+}
+
+.profile-page .profile-pic-wrapper img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-page .edit-profile-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.profile-page .edit-profile {
+  padding: 15px;
+  max-width: 700px;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  margin: 20px auto;
+  display: none;
+}
+
+.profile-page .profile-info ul {
+  list-style: none;
+  padding-left: 0;
+}
+/*# sourceMappingURL=auth.css.map */

@@ -1,0 +1,39 @@
+#mainNav {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+#mainNav .profile-dropdown:hover {
+  cursor: pointer;
+}
+
+#mainNav .profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#mainNav .home,
+#mainNav .add-post-btn,
+#mainNav .mobile-logout-btn {
+  font-size: 23px;
+}
+
+#mainNav .mobile-profile,
+#mainNav .mobile-logout-btn {
+  display: none;
+}
+
+#mainNav .dropdown-item.active {
+  background-color: black;
+}
+
+#mainNav .dropdown-item:active {
+  background-color: black;
+}
+/*# sourceMappingURL=nav.css.map */

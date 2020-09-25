@@ -1,0 +1,132 @@
+.posts .show-more-btn, .add-post button[type="submit"] {
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 25px;
+  transition: .3s;
+}
+
+.posts .show-more-btn:hover, .add-post button:hover[type="submit"] {
+  background-color: #838383;
+}
+
+.posts .container {
+  max-width: 800px;
+}
+
+.posts .post {
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  margin-bottom: 70px;
+}
+
+.posts .post-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.posts .author .author-pic-wrapper {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.posts .author .author-pic-wrapper img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.posts .author .author-username {
+  font-weight: 500;
+}
+
+.posts .delete-post-btn {
+  align-self: center;
+  font-size: 20px;
+}
+
+.posts .post-content {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.posts .post-content .post-pic-wrapper {
+  width: 100%;
+  max-height: 900px;
+}
+
+.posts .post-content .post-pic-wrapper img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 900px;
+}
+
+.posts .post-content .post-description {
+  padding: 10px 10px;
+  margin: 0;
+}
+
+.posts .post-footer .response {
+  font-size: 25px;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.posts .post-footer .fa-heart {
+  line-height: 0px;
+  cursor: pointer;
+}
+
+.posts .post-footer .number-of-likes {
+  font-size: 14px;
+}
+
+.posts .post-footer .created-at {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 15px;
+}
+
+.posts .post-footer .comments-list {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.posts .post-footer .add-comment {
+  border-top: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.posts .add-comment-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.posts .add-comment-form textarea {
+  border: none;
+  width: 85%;
+  resize: none;
+}
+
+.posts .add-comment-form textarea:focus {
+  outline: none;
+}
+
+.posts .add-comment-form button {
+  background-color: white;
+  border: none;
+}
+
+.add-post form {
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  padding: 25px;
+}
+
+.add-post #description:focus {
+  box-shadow: 0 0 1px 1px black;
+  border-color: black;
+}
+/*# sourceMappingURL=posts.css.map */

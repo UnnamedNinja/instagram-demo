@@ -1,0 +1,80 @@
+@import 'variables';
+
+.sign-in {
+    .social-btns {
+        font-size: 4em;
+        i {
+            cursor: pointer;
+            &:first-child{
+                margin-right: 10px;
+            }
+            &:hover {
+                color: $hover-gray;
+            }
+        }
+    }
+}
+
+.sign-in,
+.sign-up {
+    form {
+        border: $border-dark;
+        padding: 20px;
+    }
+    button[type="submit"] {
+        @extend %button-style;
+    }
+}
+
+.username-error {
+    display: none;
+}
+
+
+
+
+.profile-page {
+    position: relative;
+    .profile {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: $border-dark;
+        padding: 20px;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .profile-pic-wrapper {
+        width: 200px;
+        height: 200px;
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+    .edit-profile-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+    .edit-profile {
+        padding: 15px;
+        max-width: 700px;
+        border: $border-dark;
+        margin: 20px auto;
+        display: none;
+    }
+    .save-profile-btn {
+        @extend %button-style;
+    }
+    .profile-info {
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+    }
+}

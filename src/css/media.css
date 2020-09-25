@@ -1,0 +1,64 @@
+@media (max-width: 991px) {
+  #mainNav {
+    top: auto;
+    bottom: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.205);
+  }
+  #mainNav .navbar-brand {
+    display: none;
+  }
+  #mainNav .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #mainNav .profile-dropdown {
+    display: none;
+  }
+  #mainNav .mobile-profile,
+  #mainNav .mobile-logout-btn {
+    display: inline;
+  }
+  #mainNav .mobile-logout-btn {
+    color: #af0000;
+  }
+  #mainNav .mobile-profile {
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+  #mainNav .mobile-profile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+  }
+  .container {
+    padding: 5px;
+  }
+  main {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-page .profile {
+    flex-direction: column;
+  }
+  .profile-page .profile-pic-wrapper {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
+  .profile-page .profile-pic-wrapper img {
+    width: 100px;
+    height: 100px;
+  }
+  .profile-page .profile-info {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=media.css.map */

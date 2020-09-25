@@ -1,0 +1,15 @@
+$border-light: 1px solid rgba(0, 0, 0, 0.11);
+$border-dark: 1px solid rgba(0, 0, 0, 0.205);
+$hover-gray: rgb(131, 131, 131);
+
+
+%button-style {
+    background-color: #fff;
+        color: black;
+        border: 2px solid black;
+        padding: 10px 25px;
+        transition: .3s;
+        &:hover {
+            background-color: $hover-gray;
+        }
+}
